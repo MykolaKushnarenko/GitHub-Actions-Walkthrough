@@ -13,6 +13,8 @@ jobs:
       - name: Change directory
         run: cd "02 Starting Project"
       - name: Install dependencies
-        run: npm install
+        run: |
+          cd "02 Starting Project"
+          npm install
       - name: Run tests
         run: npm test
