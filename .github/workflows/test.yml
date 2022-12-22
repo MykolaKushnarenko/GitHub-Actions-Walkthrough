@@ -17,4 +17,6 @@ jobs:
           cd "02 Starting Project"
           npm install
       - name: Run tests
-        run: npm test
+        run: |
+          cd "02 Starting Project"
+          npm test
